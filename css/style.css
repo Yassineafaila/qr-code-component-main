@@ -1,0 +1,71 @@
+/* ---------google-font-------------- */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+/* ----Reset---------- */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --ff-body:'Outfit', sans-serif;;
+
+    --fw-body-400:400;
+    --fw-body-700:700;
+}
+img, picture, video, canvas, svg {
+    max-width: 100%;
+}
+body {
+    height: 100vh;
+    font-size: 0.9375rem;
+    font-family: var(--ff-body);
+    background: var(--Light-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-color: var(--White);
+    box-shadow: 5px 5px 5px var(--Light-gray);
+    border-radius: 0.9375rem;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    height: auto;
+    padding:12px ;
+}
+.container img{
+    margin-bottom: 20px;
+    border-radius: 0.625rem;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.container h1{
+    color: var(--Dark-blue);
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+.container p{
+    color: var(--Grayish-blue);
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 1.25rem;
+}
+@media (min-width:375px){
+    .container{
+        width: 300px;
+    }
+}
