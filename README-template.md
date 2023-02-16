@@ -13,6 +13,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## My process
 ## ScreenShot
+![](screenshot.png)
 
 ### Built with
 
@@ -22,7 +23,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - CSS Grid
 - Mobile-first workflow
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 
 
